@@ -399,7 +399,7 @@
                 "drawing_id": "c2910d4f-0c32-4ff4-ba99-93e974d95d09",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg height=\"29\" width=\"74\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Area 21</text></svg>",
+                "svg": "<svg height=\"29\" width=\"74\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Area 11</text></svg>",
                 "x": -91,
                 "y": 62,
                 "z": 2
@@ -660,8 +660,8 @@
                 "drawing_id": "4be9f959-5969-4eab-85f9-3ec7a4348b33",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg height=\"29\" width=\"50\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">E0/0</text></svg>",
-                "x": -313,
+                "svg": "<svg height=\"29\" width=\"50\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">E0/1</text></svg>",
+                "x": -314,
                 "y": -324,
                 "z": 2
             },
@@ -768,9 +768,18 @@
                 "drawing_id": "416f2b9b-204e-45d5-af11-88db9bba48d1",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg height=\"197\" width=\"344\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">VLAN 60 :  TECHNIQUE    : 10.10.60.0\nVLAN 70 :  COMMERCIAL : 10.10.70.0\nVLAN 80 :  MARKETING   : 10.10.80.0\nVLAN 99 :  ADMIN            : 10.10.99.0\n\nHSRP\nROUTEUR VIRTUEL : @IP .1 DES VLANS\nFEDERATEUR1         : @IP .2 DES VLANS\nFEDERATEUR2         : @IP .3 DES VLANS</text></svg>",
-                "x": -933,
-                "y": 217,
+                "svg": "<svg height=\"260\" width=\"344\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">VLAN 60 :  TECHNIQUE    : 10.10.60.0\nVLAN 70 :  COMMERCIAL : 10.10.70.0\nVLAN 80 :  MARKETING   : 10.10.80.0\nVLAN 99 :  ADMIN            : 10.10.99.0\n\nSW1 : VLAN 99 : 10.10.99.201\nSW2 : VLAN 99 : 10.10.99.202\n\nHSRP\nROUTEUR VIRTUEL : @IP .1 DES VLANS\nFEDERATEUR1         : @IP .2 DES VLANS\nFEDERATEUR2         : @IP .3 DES VLANS</text></svg>",
+                "x": -936,
+                "y": 232,
+                "z": 2
+            },
+            {
+                "drawing_id": "ed5ab2cb-1b6f-4dfa-996b-bd3348723c8d",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"323\" width=\"328\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">VLAN 61 : Management : 10.10.61.0\nVLAN 62 : DATA              : 10.10.62.0\n\nVLAN 63 : Management : 10.10.63.0\nVLAN 64 : DATA              : 10.10.64.0\n\nSW3: VLAN 61 : 10.10.61.100 : MGNT\nSW4: VLAN 63 : 10.10.63.100 : MGNT\n\nCE12:\n\tFa0/1.61 : 10.10.61.1\n\tFa0/1.62 : 10.10.62.1\nCE22:\n\tFa0/1.63 : 10.10.63.1\n\tFa0/1.64 : 10.10.64.1</text></svg>",
+                "x": 108,
+                "y": -509,
                 "z": 2
             }
         ],
@@ -1090,38 +1099,6 @@
                             "y": -23
                         },
                         "node_id": "08528c88-792c-403e-ae8c-c51250284410",
-                        "port_number": 0
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
-                "link_id": "033a4a8b-1b2d-4cfc-9dee-c71bc33622a7",
-                "link_style": {},
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": 29,
-                            "y": 69
-                        },
-                        "node_id": "38cd29f4-4da6-4178-a617-9cc77d649b5c",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0/0",
-                            "x": 38,
-                            "y": -23
-                        },
-                        "node_id": "33b7793d-ccda-4ed8-a5e3-58123219259c",
                         "port_number": 0
                     }
                 ],
@@ -1506,6 +1483,38 @@
                             "y": 55
                         },
                         "node_id": "33b7793d-ccda-4ed8-a5e3-58123219259c",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "d42eefb4-167b-403b-bff0-b240146460ff",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/1",
+                            "x": 35,
+                            "y": -23
+                        },
+                        "node_id": "33b7793d-ccda-4ed8-a5e3-58123219259c",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 32,
+                            "y": 69
+                        },
+                        "node_id": "38cd29f4-4da6-4178-a617-9cc77d649b5c",
                         "port_number": 0
                     }
                 ],
@@ -2273,8 +2282,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "SW3",
-                    "x": -46,
-                    "y": -2
+                    "x": 83,
+                    "y": 0
                 },
                 "locked": false,
                 "name": "SW3",
