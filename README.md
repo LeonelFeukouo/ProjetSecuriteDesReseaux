@@ -1,5 +1,7 @@
 # ProjetSecuriteDesReseaux
 
+![Image: "ARCHITECTURE"](./ARCHITECTURE.png)
+
 ## IMAGES IOS UTILISEES
 
 **Routeurs** :
